@@ -1,0 +1,42 @@
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px 40px;
+    text-align: center;
+    color: black solid;
+    font-size: 45px;
+    border-color:gray;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2281284523/display_1500/stock-vector-abstract-white-background-minimal-geometric-white-light-background-abstract-design-2281284523.jpg");
+    padding: 50px 300px;
+    gap: 10px;
+    #field{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        color: black;
+        gap: 25px;
+    }
+    button{
+        padding: 10px 40px;
+        color: rgba(110, 229, 163, 0.922)(128, 128, 128, 0.922);
+        gap: 10px;
+        border-radius: 5px;
+    }
+    #gender{
+        display:flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        gap: 30px;
+        color: black;
+    }
+}
